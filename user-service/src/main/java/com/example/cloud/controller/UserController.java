@@ -13,6 +13,8 @@ import java.util.List;
 /**
  * Created by cwr on 2020/11/10
  */
+@RestController
+@RequestMapping("/user")
 public class UserController {
     private Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
