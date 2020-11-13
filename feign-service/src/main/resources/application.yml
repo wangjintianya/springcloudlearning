@@ -11,7 +11,7 @@ eureka:
       defaultZone: http://localhost:8001/eureka/
 feign:
   hystrix:
-    enabled: true #ÔÚFeignÖĞ¿ªÆôHystrix
+    enabled: true #åœ¨Feignä¸­å¼€å¯Hystrix
 logging:
   level:
     com.macro.cloud.service.UserService: debug
